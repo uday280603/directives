@@ -1,0 +1,12 @@
+<div class="row" *ngIf="postArr.length > 0; else noPost">
+
+    <div class="col-12 mt-4" *ngFor="let post of postArr">
+        <app-post-card-component [postObj]="post"></app-post-card-component>
+       
+
+    </div>
+</div>
+
+<ng-template #noPost>
+  <p class="alert alert-success">No Post Data Available...!</p>
+</ng-template>
