@@ -6,6 +6,8 @@ import { cssHighLighterWithRenderDirective } from './shared/directives/cssHighLi
 import { LowerCaseDirective } from './shared/directives/lower-case.directive';
 import { PostCardComponentComponent } from './shared/component/post-card-component/post-card-component.component';
 import { PostDashboardComponentComponent } from './shared/component/post-dashboard-component/post-dashboard-component.component';
+import { UserComponent } from './shared/component/user/user.component';
+import { UserDashboardComponent } from './shared/component/user-dashboard/user-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PostDashboardComponentComponent } from './shared/component/post-dashboa
     cssHighLighterWithRenderDirective,
     LowerCaseDirective,
     PostCardComponentComponent,
-    PostDashboardComponentComponent
+    PostDashboardComponentComponent,
+    UserComponent,
+    UserDashboardComponent
   ],
   imports: [
     BrowserModule
