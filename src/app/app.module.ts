@@ -8,6 +8,8 @@ import { PostCardComponentComponent } from './shared/component/post-card-compone
 import { PostDashboardComponentComponent } from './shared/component/post-dashboard-component/post-dashboard-component.component';
 import { UserComponent } from './shared/component/user/user.component';
 import { UserDashboardComponent } from './shared/component/user-dashboard/user-dashboard.component';
+import { BikeDashboardComponent } from './shared/component/bike-dashboard/bike-dashboard.component';
+import { BikeComponent } from './shared/component/bike/bike.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { UserDashboardComponent } from './shared/component/user-dashboard/user-d
     PostCardComponentComponent,
     PostDashboardComponentComponent,
     UserComponent,
-    UserDashboardComponent
+    UserDashboardComponent,
+    BikeDashboardComponent,
+    BikeComponent
   ],
   imports: [
     BrowserModule

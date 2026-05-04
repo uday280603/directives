@@ -1,0 +1,10 @@
+<div class="row" *ngIf="bikeArr.length>0 ; else noBike">
+    <div class="col-md-4 mb-4" *ngFor="let bike of  bikeArr ; trackBy:trackByFun">
+      <app-bike [bikeObj]="bike"> </app-bike>
+
+    </div>
+</div>
+
+<ng-template #noBike>
+    <p class="alert alert-info">No Data ..!</p>
+</ng-template>
