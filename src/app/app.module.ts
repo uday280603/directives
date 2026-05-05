@@ -10,6 +10,8 @@ import { UserComponent } from './shared/component/user/user.component';
 import { UserDashboardComponent } from './shared/component/user-dashboard/user-dashboard.component';
 import { BikeDashboardComponent } from './shared/component/bike-dashboard/bike-dashboard.component';
 import { BikeComponent } from './shared/component/bike/bike.component';
+import { MovieDashboardComponent } from './shared/component/movie-dashboard/movie-dashboard.component';
+import { MovieComponent } from './shared/component/movie/movie.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { BikeComponent } from './shared/component/bike/bike.component';
     UserComponent,
     UserDashboardComponent,
     BikeDashboardComponent,
-    BikeComponent
+    BikeComponent,
+    MovieDashboardComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule

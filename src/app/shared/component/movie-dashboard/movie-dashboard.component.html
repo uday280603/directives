@@ -1,0 +1,8 @@
+<div class="row" *ngIf="movieArr.length > 0; else noMovie">
+  <div class="col-md-4 mb-3" *ngFor="let movie of movieArr">
+    <app-movie [movieObj]="movie"></app-movie>
+  </div>
+</div>
+<ng-template #noMovie>
+  <p class="alert alert-info">No Movie Data...!</p>
+</ng-template>
