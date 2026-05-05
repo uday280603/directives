@@ -1,0 +1,40 @@
+
+<div class="card h-100 shadow-sm">
+
+  <!-- Header -->
+  <div class="card-header text-center bg-dark text-white">
+    <h5 class="mb-0">{{ cricketerObj.name }}</h5>
+  </div>
+
+  <!-- Image -->
+  <div class="card-body text-center">
+    <img 
+      [src]="cricketerObj.imageUrl" 
+      [alt]="cricketerObj.imageTitle"
+      class="img-fluid rounded mb-3"
+      style="height: 200px; object-fit: cover;"
+    >
+
+    <!-- Role -->
+    <p class="mb-1">
+      <strong>Role:</strong> {{ cricketerObj.role }}
+    </p>
+
+    <!-- Runs -->
+    <p class="mb-1">
+      <strong>Runs:</strong> {{ cricketerObj.runs }}
+    </p>
+
+    <!-- Wickets -->
+    <p class="mb-1">
+      <strong>Wickets:</strong> {{ cricketerObj.wickets }}
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <div class="card-footer text-center">
+    <button class="btn btn-sm btn-primary me-2">View</button>
+    <button class="btn btn-sm btn-outline-danger">Stats</button>
+  </div>
+
+</div>

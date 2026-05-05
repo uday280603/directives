@@ -1,0 +1,8 @@
+<div class="row" *ngIf="cricketersArr.length>0 ; else noData">
+    <div class="col-md-4 mb-4" *ngFor="let cricketer of cricketersArr">
+        <app-cricketers [cricketerObj]="cricketer"></app-cricketers>
+    </div>
+</div>
+<ng-template #noData>
+    <p class="alert alert-info">No Data...!</p>
+</ng-template>

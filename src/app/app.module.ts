@@ -12,6 +12,10 @@ import { BikeDashboardComponent } from './shared/component/bike-dashboard/bike-d
 import { BikeComponent } from './shared/component/bike/bike.component';
 import { MovieDashboardComponent } from './shared/component/movie-dashboard/movie-dashboard.component';
 import { MovieComponent } from './shared/component/movie/movie.component';
+import { CricketersDashboardComponent } from './shared/component/cricketers-dashboard/cricketers-dashboard.component';
+import { CricketersComponent } from './shared/component/cricketers/cricketers.component';
+import { MobileDashboardComponent } from './shared/component/mobile-dashboard/mobile-dashboard.component';
+import { MobileComponent } from './shared/component/mobile/mobile.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { MovieComponent } from './shared/component/movie/movie.component';
     BikeDashboardComponent,
     BikeComponent,
     MovieDashboardComponent,
-    MovieComponent
+    MovieComponent,
+    CricketersDashboardComponent,
+    CricketersComponent,
+    MobileDashboardComponent,
+    MobileComponent
   ],
   imports: [
     BrowserModule
